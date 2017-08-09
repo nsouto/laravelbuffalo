@@ -81,6 +81,12 @@
                 <div class="title m-b-md">
                     Laravel Buffalo
                 </div>
+
+                <div class="links">
+                    <a href="https://www.meetup.com/Laravel-Buffalo/">Meetup</a>
+                    <a href="https://github.com/nsouto/laravelbuffalo">GitHub</a>
+                    <a href="https://twitter.com/laravelbuffalo">@laravelbuffalo</a>
+                </div>
             </div>
         </div>
     </body>
