@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -50,13 +51,12 @@
             }
 
             .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
+                color: #c7cfd8;
+                padding: 0 10px;
+                font-size: 2em;
+                font-weight: 300;
                 letter-spacing: .1rem;
                 text-decoration: none;
-                text-transform: uppercase;
             }
 
             .m-b-md {
@@ -66,26 +66,15 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Buffalo
+                    <img src="/images/logo.png" alt="">
                 </div>
 
                 <div class="links">
-                    <a href="https://www.meetup.com/Laravel-Buffalo/">Meetup</a>
-                    <a href="https://github.com/nsouto/laravelbuffalo">GitHub</a>
-                    <a href="https://twitter.com/laravelbuffalo">@laravelbuffalo</a>
+                    <a href="https://www.meetup.com/Laravel-Buffalo/"><i class="fa fa-meetup"></i></a>
+                    <a href="https://github.com/nsouto/laravelbuffalo"><i class="fa fa-github"></i></a>
+                    <a href="https://twitter.com/laravelbuffalo"><i class="fa fa-twitter"></i></a>
                 </div>
             </div>
         </div>
